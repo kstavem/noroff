@@ -54,7 +54,13 @@
         <task id="38" name="Landing page" color="#8cb6ce" meeting="false" start="2020-05-27" duration="1" complete="1" thirdDate="2020-05-27" thirdDate-constraint="1" expand="true"/>
         <task id="39" name="Contact page" color="#8cb6ce" meeting="false" start="2020-05-27" duration="2" complete="0" thirdDate="2020-05-27" thirdDate-constraint="1" expand="true"/>
         <task id="40" name="About page" color="#8cb6ce" meeting="false" start="2020-05-28" duration="2" complete="0" thirdDate="2020-05-28" thirdDate-constraint="1" expand="true"/>
-        <task id="41" name="Webshop page" color="#8cb6ce" meeting="false" start="2020-05-29" duration="6" complete="0" thirdDate="2020-05-29" thirdDate-constraint="1" expand="true"/>
+        <task id="41" name="Webshop page" color="#8cb6ce" meeting="false" start="2020-05-29" duration="6" complete="0" thirdDate="2020-05-29" thirdDate-constraint="1" expand="true">
+            <depend id="245" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="245" name="Testing groups" color="#8cb6ce" meeting="false" start="2020-06-08" duration="2" complete="0" thirdDate="2020-06-08" thirdDate-constraint="0" expand="true">
+            <depend id="249" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="249" name="Bug fixing" color="#8cb6ce" meeting="false" start="2020-06-10" duration="2" complete="0" thirdDate="2020-05-18" thirdDate-constraint="0" expand="true"/>
         <task id="43" name="Domain and hosting" color="#3333ff" meeting="false" start="2020-05-18" duration="2" complete="0" thirdDate="2020-05-18" thirdDate-constraint="0" expand="true"/>
         <task id="220" name="Payment systems" color="#3333ff" meeting="false" start="2020-05-19" duration="4" complete="0" thirdDate="2020-05-18" thirdDate-constraint="0" expand="true">
             <depend id="187" type="2" difference="0" hardness="Strong"/>
@@ -94,7 +100,7 @@
         <task id="53" name="Lofthus photography" color="#3333ff" meeting="false" start="2020-05-19" duration="2" complete="0" thirdDate="2020-05-19" thirdDate-constraint="0" expand="true">
             <depend id="87" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="87" name="Edit images" color="#3333ff" meeting="false" start="2020-05-21" duration="7" complete="0" thirdDate="2020-05-21" thirdDate-constraint="0" priority="0" expand="true"/>
+        <task id="87" name="Edit images" color="#3333ff" meeting="false" start="2020-05-21" duration="7" complete="0" thirdDate="2020-05-21" thirdDate-constraint="0" expand="true"/>
         <task id="104" name="Film Interview" color="#3333ff" meeting="false" start="2020-05-25" duration="1" complete="0" thirdDate="2020-05-25" thirdDate-constraint="1" expand="true">
             <depend id="96" type="2" difference="0" hardness="Strong"/>
         </task>
@@ -115,11 +121,13 @@
         <allocation task-id="39" resource-id="0" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
         <allocation task-id="40" resource-id="0" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
         <allocation task-id="41" resource-id="0" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
-        <allocation task-id="42" resource-id="0" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
-        <allocation task-id="195" resource-id="0" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
         <allocation task-id="194" resource-id="0" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
         <allocation task-id="44" resource-id="0" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
         <allocation task-id="240" resource-id="0" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="0" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="195" resource-id="0" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="245" resource-id="0" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="249" resource-id="0" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
         <allocation task-id="50" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="57" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="76" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
@@ -141,6 +149,8 @@
         <allocation task-id="220" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="42" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="195" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="245" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="249" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
